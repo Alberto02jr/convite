@@ -3,9 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Convite Chá de Panela - voce esta convidado </title>
+  <title>Convite Chá de Panela - Você Está Convidado</title>
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Fontes mais legíveis só na seção de presentes */
+    .presentes, .presentes * {
+      font-family: 'Segoe UI', 'Arial', sans-serif !important;
+    }
+
+    .presentes {
+      background-color: rgba(255, 255, 255, 0.94);
+      border: 2px solid #e1d2aa;
+    }
+  </style>
 </head>
 <body>
 
@@ -15,7 +26,7 @@
 
   <header>
     <h1>Alberto Junio &amp; Laysa Ribeiro</h1>
-    <h2>Você está convidado(a) para o nosso Chá de panela!</h2>
+    <h2>Você está convidado(a) para o nosso Chá de Panela!</h2>
   </header>
 
   <section class="video-area" aria-label="Vídeo introdutório do convite">
@@ -39,8 +50,8 @@
   </section>
 
   <section class="confirmacao">
-    <p><strong>Data:</strong> 26 de julho de 2025 20:00 horas</p>
-    <p><strong>Local:</strong> Rua Dom Bosco, QD 01- lote, Bairro Jardim Aurora</p>
+    <p><strong>Data:</strong> 26 de julho de 2025 - 20:00 horas</p>
+    <p><strong>Local:</strong> Rua Dom Bosco, QD 01 - lote, Bairro Jardim Aurora</p>
 
     <form id="formConfirmacao" aria-label="Formulário de confirmação de presença" onsubmit="return false;">
       <input
@@ -65,13 +76,13 @@
   <section class="presentes" aria-label="Sugestões de presente">
     <h3>Sugestões de Presente 💝</h3>
     <ul>
-      <li>enxoval, cama super king cobre leito, lençol </li>
-      <li>toalhas,tapetes, almofadas e travesseiros</li>
-      <li>carpetes, ventilador</li>
-      <li>bebedouro</li>
-      <li>batedeira de bolo</li>
-      <li>ferro de passar roupa</li>
-      <li>utensílios de conzinha  em geral</li>
+      <li>Enxoval, cama super king, cobre leito, lençol</li>
+      <li>Toalhas, tapetes, almofadas e travesseiros</li>
+      <li>Carpetes, ventilador</li>
+      <li>Bebedouro</li>
+      <li>Batedeira de bolo</li>
+      <li>Ferro de passar roupa</li>
+      <li>Utensílios de cozinha em geral</li>
     </ul>
   </section>
 </div>
@@ -88,4 +99,3 @@
 <script src="script.js"></script>
 </body>
 </html>
-
