@@ -25,30 +25,7 @@ body {
   opacity: 0.35;
 }
 
-/* Moldura com colunas e padrão meandro */
-.moldura {
-  position: fixed;
-  top: 20px; left: 20px; right: 20px; bottom: 20px;
-  border-radius: 40px;
-  pointer-events: none;
-  z-index: 1;
-  box-shadow:
-    inset 0 0 0 15px #c8b56d,
-    inset 0 0 0 35px #d5c592,
-    inset 0 0 15px 40px rgba(255, 248, 200, 0.4);
-  background:
-    repeating-linear-gradient(
-      90deg,
-      #d5c592,
-      #d5c592 10px,
-      #c8b56d 10px,
-      #c8b56d 20px
-    );
-  background-position: center;
-  background-repeat: repeat-x;
-  background-size: 60px 60px;
-  animation: brilho 6s ease-in-out infinite alternate;
-}
+
 
 @keyframes brilho {
   0% {
