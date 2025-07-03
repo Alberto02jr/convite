@@ -8,8 +8,6 @@ function mostrarImagem(i) {
   });
 }
 
-// (Opcional) Se quiser slideshow automático, pode usar setInterval ou deixar a animação CSS que você já tem
-
 // Código do formulário de confirmação
 const form = document.getElementById('formConfirmacao');
 const nomeInput = document.getElementById('nome');
